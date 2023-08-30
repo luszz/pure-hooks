@@ -10,7 +10,7 @@
 
 [![npm version](https://img.shields.io/npm/v/pure-hooks.svg)](https://www.npmjs.com/package/pure-hooks)
 [![npm downloads](https://img.shields.io/npm/dm/pure-hooks.svg)](https://www.npmjs.com/package/pure-hooks)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/pure-hooks)](https://github.com/yourusername/pure-hooks/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/luszz/pure-hooks)](https://github.com/luszz/pure-hooks/stargazers)
 
 </div>
 
