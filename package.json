@@ -24,6 +24,10 @@
     "react",
     "hooks"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "lus",
   "license": "ISC",
   "devDependencies": {
