@@ -2,6 +2,7 @@
 title: 首页
 hero:
   desc: React 业务 Hooks
+  image: /logo.png
   actions:
     - text: 指南
       link: /guide
@@ -12,20 +13,22 @@ footer: Copyright (c) © 2023 by pure, All Rights Reserved
 
 ## ✨ 特性
 
-- 可靠的代码健壮：使用 Typescript 构建，提供完善的类型定义文件
-- 完善的文档能力：支持文档记录，支持 demo 演示
-- 完整的测试用例：配套完整的测试用例，帮助您提升项目健壮性
+- 📦 提供一系列实用的纯函数式 React Hooks，方便处理各种任务。
+- 🌈 基于 TypeScript 编写，提供详细的类型定义。
+- 🎯 轻量、高效，没有不必要的依赖。
 
 ## 📦 安装
 
 ```bash
-$ pnpm install --save encode-hooks
-# or
-$ yarn add encode-hooks
+npm install pure-hooks
+yarn add pure-hooks
+pnpm add pure-hooks
 ```
 
 ## 🔨 使用
 
 ```ts
-import { useToggle } from 'encode-hooks';
+
+import { useToggle } from 'pure-hooks'
+
 ```
