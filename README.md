@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/logo.png" alt="pureHooks Logo" width="200" />
+  <img src="/public/logo.png" alt="pure-hooks Logo" width="200" />
 </p>
 
 <h1 align="center">pureHooks - 纯函数式 React Hooks 库</h1>
@@ -26,10 +26,12 @@
 
 ```bash
 npm install pure-hooks
+yarn add pure-hooks
+pnpm add pure-hooks
 
 📖 文档
 
-详细的文档和示例可以在 <a href="">pureHooks</a> 官方网站中找到。
+详细的文档和示例可以在 <a href="">pure-hooks</a> 官方网站中找到。
 
 🎉 示例
 使用 useToggle 纯函数式 Hook 来创建一个值切换的基础 hooks：
@@ -74,4 +76,4 @@ export default () => {
 
 
 
-感谢使用 pureHooks！如果您有任何问题或建议，请随时提出。祝您编码愉快！
+感谢使用 pure-hooks！如果您有任何问题或建议，请随时提出。祝您编码愉快！
