@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="your-logo.png" alt="pureHooks Logo" width="200" />
+  <img src="/public/logo.png" alt="pureHooks Logo" width="200" />
 </p>
 
 <h1 align="center">pureHooks - 纯函数式 React Hooks 库</h1>
