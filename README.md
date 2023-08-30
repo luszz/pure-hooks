@@ -29,35 +29,49 @@ npm install pure-hooks
 
 📖 文档
 
-详细的文档和示例可以在 pureHooks 官方网站 中找到。
+详细的文档和示例可以在 <a href="">pureHooks</a> 官方网站中找到。
 
 🎉 示例
 使用 useToggle 纯函数式 Hook 来创建一个值切换的基础 hooks：
 
 ```jsx
+/**
+ * title: 基础用法
+ * desc: 默认为 boolean 切换，基础用法与 useBoolean 一致。
+ */
+
+import { useToggle } from 'pureHooks'
+import './index.css'
+
 import React from 'react';
-import { useToggle } from 'pure-hooks';
+import { Button } from "antd";
+import "antd/dist/reset.css";
 
-function Counter() {
-  const [state, {toggle, setLeft, setRight}] = useCounter();
-
-  return (
-    <div>
-      <h1>Count: 当前值为: {`${state}`}</h1>
-      <button onClick={toggle}>toggle</button>
-      <button onClick={setLeft}>setLeft</button>
-         <button onClick={setRight}>setRight</button>
-    </div>
-  );
+export default () => {
+    const [state, { toggle, setLeft, setRight }] = useToggle(); // 默认值为 false
+    return (
+        <div>
+        <p>当前state值为: {`${state}`}</p>
+        <p>
+            <Button type="primary" className="mr-10px" onClick={toggle}>Toggle</Button>
+            <Button type="primary" className="mr-10px" onClick={setLeft}>setLeft</Button>
+            <Button type="primary" className="mr-10px" onClick={setRight}>setLeft</Button>
+        </p>
+        </div>
+    );
 }
-
-export default useToggle;
 ```
+
+
 
 🤝 贡献
 欢迎贡献！如果您想为此库做出贡献，请查看我们的 贡献指南。
 
+
+
 📄 许可证
 本项目基于 MIT 许可证。
+
+
 
 感谢使用 pureHooks！如果您有任何问题或建议，请随时提出。祝您编码愉快！
