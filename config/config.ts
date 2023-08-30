@@ -1,8 +1,9 @@
-// import { menus } from './menus'
+import { menus } from './menus'
 
 export default {
     nodeModulesTransform: {
         type: 'none',
+        exclude: [],
     },
     history: {
         type: 'hash',
@@ -11,10 +12,10 @@ export default {
         [
           'babel-plugin-import',
           {
-            libraryName: '@alifd/next',
-            style: false,
-          },
-          'fusion',
+            libraryName: 'antd',
+            libraryDirectory: 'es',
+            style: true,
+            },
         ],
       ],
       alias: {
@@ -46,7 +47,7 @@ export default {
             path: '/guide',
           },
         ],
-        // '/hooks': menus,
+        '/hooks': menus,
       },
     mode: "site",
     title: "PureHooks",

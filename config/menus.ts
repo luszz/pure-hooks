@@ -1,8 +1,7 @@
 export const menus = [
     {
-        title: "状态",
-        children: [
-            "uesToggle",
-        ]
-    }
-]
+      title: '状态',
+      children: ['useToggle'],
+    },
+  ];
+  
