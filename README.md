@@ -23,8 +23,8 @@
 ## 🛠️ 安装
 
 ```bash
-npm install pure-hooks
 pnpm add pure-hooks
+npm install pure-hooks
 yarn add pure-hooks
 
 📖 文档
