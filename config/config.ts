@@ -53,7 +53,7 @@ export default {
       },
     mode: "site",
     title: "PureHooks",
-    favicon: '/pure-hooks/favicon.png',
+    favicon: '/pure-hooks/favicon.ico',
     logo: '/pure-hooks/logo.png',
     hash: true,
 }
