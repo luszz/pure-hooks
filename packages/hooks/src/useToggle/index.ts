@@ -2,9 +2,10 @@ import { useState, useMemo } from 'react'
 
 type defaultFn = () => void
 
-interface Actions<T> {
+export interface Actions<T> {
     toggle: defaultFn
     setLeft: defaultFn
+    set: (value: T) => void
     setRight: defaultFn
 }
 
@@ -22,9 +23,10 @@ function useToggle<D, R>(defaultValue: D = false as D, reverseValue?: R) {
 
         const toggle = () => setState(s => s === defaultValue ? reverseValueOrigin : defaultValue)
         const setLeft = () => setState(defaultValue)
+        const set = (value: D | R) => setState(value);
         const setRight = () => setState(reverseValueOrigin)
 
-        return { toggle, setLeft, setRight }
+        return { toggle, setLeft, set, setRight }
     }, [])
 
     return [state, actions]
