@@ -1,6 +1,6 @@
 {
     "name": "pure-hooks",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "",
     "module": "",
     "types": "",
@@ -12,7 +12,8 @@
         "dist",
         "es",
         "lib",
-        "package.json"
+        "package.json",
+        "README.md"
     ],
     "dependencies": {
         "@babel/runtime": "^7.21.0",

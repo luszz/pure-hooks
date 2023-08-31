@@ -36,6 +36,10 @@ gulp.task('declaration', () => {
     return tsProject.src().pipe(tsProject()).pipe(gulp.dest('es/')).pipe(gulp.dest('lib/'));
 })
 
+gulp.task('copyReadme', async () => {
+    await gulp.src('../../README.md').pipe(gulp.dest('../../packages/hooks'))
+})
 
 
-exports.default = gulp.series('clean', 'es', 'cjs', 'declaration')
+
+exports.default = gulp.series('clean', 'es', 'cjs', 'declaration', 'copyReadme')
