@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="/public/logo.png" alt="pure-hooks Logo" width="200" />
+  <img src="/public/logo.png" alt="" width="200" />
 </p>
 
-<h1 align="center">pureHooks - 纯函数式 React Hooks 库</h1>
+<h1 align="center">pure-hooks - 纯函数式 React Hooks 库</h1>
 
 <div align="center">
 
@@ -34,11 +34,6 @@ pnpm add pure-hooks
 🎉 示例
 使用 useToggle 纯函数式 Hook 来创建一个值切换的基础 hooks：
 
-```jsx
-/**
- * title: 基础用法
- * desc: 默认为 boolean 切换，基础用法与 useBoolean 一致。
- */
 
 import { useToggle } from 'pureHooks'
 import './index.css'
@@ -60,7 +55,7 @@ export default () => {
         </div>
     );
 }
-```
+
 
 
 
