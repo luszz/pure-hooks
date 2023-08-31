@@ -2,7 +2,7 @@
 title: 首页
 hero:
   desc: React 业务 Hooks
-  image: /logo.png
+  image: /pure-hooks/logo.png
   actions:
     - text: 指南
       link: /guide
