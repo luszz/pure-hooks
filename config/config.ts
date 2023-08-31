@@ -8,6 +8,7 @@ export default {
     history: {
         type: 'hash',
     },
+    publicPath: '/pure-hooks/',
     extraBabelPlugins: [
         [
           'babel-plugin-import',
@@ -20,6 +21,7 @@ export default {
       ],
       alias: {
         pureHooks: process.cwd() + '/packages/hooks/src/index.ts',
+        ['pure-hooks']: process.cwd() + '/packages/hooks/src/index.ts',
       },
       resolve: {
         includes: ['packages/hooks/src', 'docs'],
@@ -52,4 +54,5 @@ export default {
     mode: "site",
     title: "PureHooks",
     logo: '/logo.png',
+    hash: true,
 }
