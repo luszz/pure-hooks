@@ -24,8 +24,8 @@
 
 ```bash
 npm install pure-hooks
-yarn add pure-hooks
 pnpm add pure-hooks
+yarn add pure-hooks
 
 📖 文档
 
