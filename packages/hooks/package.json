@@ -13,7 +13,8 @@
         "es",
         "lib",
         "package.json",
-        "README.md"
+        "README.md",
+        "metaData.json"
     ],
     "dependencies": {
         "@babel/runtime": "^7.21.0",
